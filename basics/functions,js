@@ -1,0 +1,6 @@
+function greet(name) {
+    return "Hello " + name;
+}
+
+console.log(greet("Vanshaj"));
+console.log(greet("Rahul"));
