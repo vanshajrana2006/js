@@ -26,3 +26,42 @@ function user(user)
 return `${user} just logged in`
 }
 console.log(user())
+
+
+
+
+//hof
+
+
+
+// High Order Functions and Callback
+
+function add(a, b, cb) {
+    let result = a + b;
+    cb(result);
+}
+
+add(2, 4, function (val) {
+    console.log(val);
+});
+
+
+//arrow
+function add(a, b, cb) {
+    let result = a + b;
+    cb(result);
+}
+
+add(2, 4, (val)=>console.log(val)); 
+  
+
+
+
+function add(a, b, cb) {
+    let result = a + b;
+    cb(result);
+}
+
+add(2, 4, function (val) {
+    console.log(val);
+});
